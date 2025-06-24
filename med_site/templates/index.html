@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron text-center bg-light p-5 rounded">
+    <h1 class="display-4">Добро пожаловать в МедПомощник!</h1>
+    <p class="lead">Простой медицинский справочник для базовой информации.</p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>Симптомы</h3>
+        <p>Узнайте, что делать при распространенных симптомах.</p>
+        <a href="/symptoms" class="btn btn-primary">Перейти</a>
+    </div>
+    <div class="col-md-4">
+        <h3>Калькулятор ИМТ</h3>
+        <p>Проверьте свой индекс массы тела.</p>
+        <a href="/bmi" class="btn btn-primary">Перейти</a>
+    </div>
+    <div class="col-md-4">
+        <h3>Экстренные контакты</h3>
+        <p>Телефоны скорой, полиции и МЧС.</p>
+        <a href="/contacts" class="btn btn-primary">Перейти</a>
+    </div>
+</div>
+{% endblock %}
+
+
